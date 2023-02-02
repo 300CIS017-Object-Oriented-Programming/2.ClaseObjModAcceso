@@ -1,4 +1,4 @@
-# Ejericio
+# Ejercicio
 
 ## Modificadores de acceso
 **Objetivo**

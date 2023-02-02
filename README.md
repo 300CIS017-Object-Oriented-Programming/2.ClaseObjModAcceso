@@ -29,8 +29,8 @@ de cambiar atributos privados a través de una clase Perro con atributos nombre,
 5. Llame al método "mostrarInformación" en el objeto "Perro" para verificar que los valores establecidos se impriman
    correctamente.
 6. Pruebe establecer valores para los atributos "tamaño", "color" y "edad" mediante los métodos "establecerTamaño", "
-   establecerColor" y "establecerEdad", respectivamente, y verifica que los valores se hayan establecido correctamente
+   establecerColor" y "establecerEdad", respectivamente, y verifique que los valores se hayan establecido correctamente
    llamando al método "mostrarInformación".
 7. Intente establecer valores directamente para los atributos "tamaño", "color" y "edad" desde fuera de la clase, y
-   verifica que ocurra un error o advertencia debido a que estos atributos son privados y no se pueden acceder desde
+   verifique que ocurra un error o advertencia debido a que estos atributos son privados y no se pueden acceder desde
    fuera de la clase.

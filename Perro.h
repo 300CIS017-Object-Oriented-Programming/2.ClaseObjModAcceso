@@ -17,6 +17,8 @@ public:
     int edad;
 
     void ladrar();
+
+    void saludar(std::string diaSemana);
 };
 
 #endif //INC_1_CLASEOBJETO_PERRO_H

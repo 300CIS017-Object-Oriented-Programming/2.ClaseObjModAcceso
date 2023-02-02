@@ -19,12 +19,4 @@ public:
     void ladrar();
 };
 
-
 #endif //INC_1_CLASEOBJETO_PERRO_H
-class NombreClase {
-public:
-    //atributos y métodos públicos
-
-private:
-    //atributos y métodos privados
-};

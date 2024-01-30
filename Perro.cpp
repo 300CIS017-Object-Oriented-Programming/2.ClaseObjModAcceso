@@ -13,8 +13,8 @@ void Perro::ladrar() {
               << " soy de la raza:" << raza << " y  me gusta ladrar los " << diaSemana << std::endl;
 }
 
-void Perro::saludar(std::string diaSemana) {
-    // Ejemplo de método que recibe un paramétro
+// Ejemplo de método que recibe un paramétro
+void Perro::saludar(std::string diaSemana) {   
     std::cout << "Soy " << nombre << "y te estoy saludando el día " << diaSemana;
 }
 

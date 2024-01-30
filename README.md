@@ -8,7 +8,7 @@ Utilizar las variables locales y las variables de instancia para resolver proble
 Cree un método "alimentar" en la clase Perro que tenga una variable local de tipo float que represente la cantidad de
 alimento en kilogramos que se le está dando al perro. Al llamar el método "alimentar", este método debe calcular la
 cantidad de alimento necesaria para alimentar al perro en función de su tamaño y edad
-(un perro grande se alimenta con 1 kilogramo por cada año, un perro mediano con 0.5 kilos por cada año de vida y un
+(un perro grande se alimenta con 1 kilogramo por cada año de vida, un perro mediano con 0.5 kilos por cada año de vida y un
 perro pequeño con 0.25 kilos por cada año de vida)
 El método debe luego mostrar en pantalla cuánto alimento se le está dando al perro. Pruebe el método llamándolo con el
 objeto "Firulais"

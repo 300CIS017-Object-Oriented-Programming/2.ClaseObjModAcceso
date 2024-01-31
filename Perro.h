@@ -9,8 +9,11 @@
 #include <iostream>
 
 class Perro {
-public:
+private:
     std::string nombre;
+
+public:
+    //std::string nombre;
     std::string raza;
     std::string tamanio;
     std::string color;

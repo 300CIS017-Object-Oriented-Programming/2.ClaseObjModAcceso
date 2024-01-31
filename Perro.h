@@ -1,5 +1,5 @@
 //
-// Created by lufe0 on 31/01/2023.
+// Created by lufe and Gonzo.
 //
 
 #ifndef INC_1_CLASEOBJETO_PERRO_H
@@ -9,11 +9,9 @@
 #include <iostream>
 
 class Perro {
-private:
-    std::string nombre;
 
 public:
-    //std::string nombre;
+    std::string nombre;
     std::string raza;
     std::string tamanio;
     std::string color;

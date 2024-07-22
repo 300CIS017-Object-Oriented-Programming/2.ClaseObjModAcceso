@@ -6,11 +6,7 @@
 
 void Perro::ladrar() {
 
-    // Ejemplo de variable local
-    std::string diaSemana = "jueves";
-
-    std::cout << " Esta ladrando " << nombre << " tengo " << edad << " anios "
-              << " soy de la raza:" << raza << " y  me gusta ladrar los " << diaSemana << std::endl;
+    std::cout << " Esta ladrando " << nombre << " tengo " << edad << " anios " << std::endl;
 }
 
 // Ejemplo de método que recibe un paramétro

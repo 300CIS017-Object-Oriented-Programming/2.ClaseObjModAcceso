@@ -15,6 +15,7 @@ public:
     std::string color;
     int edad;
     void ladrar();
+    void saludar();
 
 };
 

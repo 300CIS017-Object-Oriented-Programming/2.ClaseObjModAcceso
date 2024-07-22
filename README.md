@@ -5,9 +5,10 @@
 **Objetivo**
 * Utilizar las variables locales y las variables de instancia para resolver problemas simples
 * Comprender y aplicar los modificadores de acceso en programación orientada a objetos (C++), demostrando la imposibilidad
-de cambiar atributos privados a través de una clase Perro con atributos nombre, raza, tamaño, color y edad
+de cambiar atributos privados
 * Prácticar cómo establecer relaciones de asociación entre dos clases cuando el objeto existe por fuera del contexto de la clase Origen
 la asociación
+* Crear nuevas clases y relacionar sus elementos
 
 **Ejercicios**
 1. **[Uso de variables locales y de instancia]** Cree un método "alimentar" en la clase Perro que tenga una variable local de tipo float que represente la cantidad de

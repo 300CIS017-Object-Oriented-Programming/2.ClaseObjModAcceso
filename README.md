@@ -29,6 +29,31 @@ la asociación
    4. Intente asociar algún objeto `Perro` que tenga creado, con un objeto de la clase `Veterinaria`
    5. Pruebe la relación mostrando desde algún objeto `Perro` la información de su veterinario.
 5. **Clase libre**
-  Defina una nueva clase que tenga al menos dos atributos y dos métodos relaciónela con algunas de las clases ya existentes, pruebe que su relación funciona. Ajuste el UML para que incorpore la nueva clase creada. 
+  Defina una nueva clase que tenga al menos dos atributos y dos métodos relaciónela con algunas de las clases ya existentes, pruebe que su relación funciona. Ajuste el UML para que incorpore la nueva clase creada.
 
+## Diagrama de clases relacionado
+
+```mermaid
+classDiagram
+    class Perro{
+      - String nombre
+      - String color
+      - int edad
+      - Veterinario * veterinarioObj
+      - Raza * razaObj
+      +ladrar()
+      +saludar()
+    }
+    class Veterinario{
+      -int aniosExperiencia
+      -String nombre
+    }
+    class Raza{
+      +String nombre
+      +String paisOrigen
+    }
+
+    Perro --> Raza : tiene
+    Perro --> Veterinario : tiene
+ ```
 

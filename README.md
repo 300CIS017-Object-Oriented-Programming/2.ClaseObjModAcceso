@@ -18,7 +18,7 @@ la asociación
    verifique que ocurra un error o advertencia debido a que estos atributos son privados y no se pueden acceder desde fuera de la clase.
 3. **[Crear nuevas clases]** Raza
    1. Cree una nueva clase llamada `Raza` que tenga los atributos "nombre", "paisOrigen"
-   2. Agrege el constructor y los métodos get/set para la clase `Raza`
+   2. Agrege los métodos get/set para la clase `Raza`
    3. Cree en el método main dos objetos de tipo `Raza` diferentes: "Mastin Napolitano" de origen "Italia" y "Maltes" de origen "Italia"
    4. Haga los ajustes que requiera su código para asociar a la clase `Perro` la raza.
    5. Vincule a Firualis al objeto que representa la `Raza` del "Mastin Napolitano" que creo en el Main
